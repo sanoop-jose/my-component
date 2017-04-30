@@ -1,8 +1,10 @@
 import React from 'react';
+import './style.css';
+
 class ReactHelloWorld extends React.Component {
   render() {
     return (
-      <div> Hello world!! </div>
+      <div className="component-container"> Hello world!! </div>
     )
   }
 }
